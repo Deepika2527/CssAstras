@@ -1,0 +1,119 @@
+/* Universal selector for marging and padding */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+
+
+/* Header Styling -tag selctor*/
+header{
+    background-color: #fc8c03 ;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* Header logo- */
+header div{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+/* header navigation */
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+/* header navigation items */
+
+header nav ul li{
+    cursor: pointer;
+}
+
+/* searh bar -Attibute*/
+div input[type='text']{
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: #f8f8f8;
+}
+
+
+.search-bar button{
+    padding: 10px 20px;
+    background-color: #fc8c03;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Section styling */
+section{
+    margin: 20px;
+}
+
+/* sectio heading */
+ section h2{
+    margin-bottom: 10px;
+    color: orangered;
+ }
+
+ section div{
+    display: flex;
+    gap:15px;
+    overflow-x: auto;
+ }
+
+
+ section div div{
+    min-width: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ }
+
+
+ /* fOOTER */
+
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* pseudo-class example on hover effect */
+header nav ul li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
+/* pseuo elemts- for decoration */
+
+section div div::after{
+    content: "**";
+    color: #fc8c03;
+}
+
+
+
