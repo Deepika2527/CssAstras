@@ -1,0 +1,30 @@
+.profileContainer{
+    display: flex;
+}
+.profileCard{
+    max-width: 270px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin:10px;
+    
+}
+
+.profileCard img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profileCard p{
+    margin: 10px auto;
+}
+.profileCard button{
+    padding: 5px 15px;
+    background-color: green;
+    border: none;
+    border-radius: 10px; 
+    color: beige;
+}
