@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fafafa;
+            font-family: Arial, sans-serif;
+        }
+        .search-container {
+           
+            width:500px;
+            position: relative;
+        }
+        .search-container input{
+            width:100%;
+            padding:12px 50px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            outline: none;
+            background-color: white;
+            font-size: 16px;
+        }
+        .search-container i{
+            position: absolute;
+            top:50%;
+            color: #333;
+            font-size: 20px;
+            cursor: pointer;
+            transform: translateY(-50%);
+
+        }
+        .fa-magnifying-glass{
+            left:15px;
+        }
+        .fa-microphone{
+            right: 15px;
+
+        }
+        .fa-camera{
+            right: 45px;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="search-container">
+        <!-- searchIcon -->
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <!-- Input area -->
+         <input type="text" placeholder="Search Google or type a URL">
+         <!-- mic icon -->
+
+         <i class="fa-solid fa-microphone"></i>
+          <!-- camera icon -->
+           <i class="fa-solid fa-camera"></i>
+
+    </div>
+    
+</body>
+</html>
