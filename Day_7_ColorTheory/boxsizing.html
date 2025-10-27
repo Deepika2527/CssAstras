@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxsizing</title>
+    <style>
+        div{
+            border:1px solid black;
+        }
+        #content-box{
+            height: 300px;
+            width:300px; 
+            margin: 10px;
+            text-align: center;
+            line-height: 300px;
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        #border-box{
+            height: 300px;
+            width:300px; 
+            margin: 10px;
+            text-align: center;
+            line-height: 300px;
+            background-color: lightpink;
+            padding: 10px;
+            box-sizing: border-box;
+            border:10px solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- 300+2+20 -->
+
+    <div>
+        <div id="content-box">ContentBox</div>
+        <div id="border-box">Border-box</div>
+    </div>
+    
+</body>
+</html>

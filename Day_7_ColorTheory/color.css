@@ -1,0 +1,41 @@
+.container{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+.cards{
+    border: 1px solid black;
+    height:200px;
+    width: 200px;
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    
+}
+.color{
+    height: 100px;
+    width:100px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+#colorname{
+    background-color: forestgreen;
+}
+#hexa{
+    background-color: #7706a3;
+}
+#rgb{
+    background-color: rgb(252, 244, 3);
+}
+#rgba{
+    background-color: rgb(22, 24, 3,0.5);
+}
+#hsl{
+    background-color: hsl(60deg, 130%, 40%);
+}
+#hsla{
+      background-color: hsl(60deg, 130%, 40%,1);
+}
