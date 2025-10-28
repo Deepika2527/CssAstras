@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* section with parallax background */
+.parallax{
+   
+     background-image: url('https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    background-attachment: fixed;
+}
+.content{
+    padding: 60px;
+    background-color: #fefefe;
+    text-align: center;
+}
+.content h2{
+   margin-bottom: 10px;
+   font-size: 32px;
+   color:  #333;
+}
+.content p{
+    margin: auto;
+    line-height: 1.6;
+    color: #666;
+}
+.parallax.second{
+    background-image: url("https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg");
+}
