@@ -1,0 +1,26 @@
+div,section{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 35px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 32px;
+     background-color: darkgoldenrod;
+} 
+.box1:hover{
+ transform: translateY(100px);
+}
+.box2:hover{
+    transform: rotate(90deg);
+}
+.box3:hover{
+    transform: scale(3);
+}
+.box4:hover{
+    transform: skew(30deg);
+}
+/* section:hover{
+    
+} */

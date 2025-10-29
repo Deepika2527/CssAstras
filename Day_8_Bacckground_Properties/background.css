@@ -7,6 +7,14 @@
     background-color: limegreen;
     width: 100%;
 } */
+
+body {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
  .container{
     height: 500px;
     width: 700px;
@@ -15,7 +23,7 @@
     background-repeat: repeat;
     /* display: none; */
      background-image: url('https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg');
-    background-size: contain;
+    background-size: 300px 300px;
     background-repeat: no-repeat;
     
     
